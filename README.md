@@ -6,9 +6,8 @@
 
 ## デプロイURL (Google Chrome専用)
 * **音声反応エフェクト版:** https://taisyouzidai-sketch.github.io/moziame/
-* **リアルタイム文字表示版:** https://taisyouzidai-sketch.github.io/moziame2/
 
-## 🛠️ 使用技術・Web API
+## 使用技術・Web API
 * **Frontend:** HTML5, CSS3, JavaScript (Vanilla JS)
 * **Web Speech API (`SpeechRecognition`):** ユーザーの音声入力・リアルタイムテキスト化
 * **Web Audio API (`AudioContext` / `BiquadFilterNode`):** 完全にコード上で生成する環境雨音のシンセサイズ、および音声連動によるダイナミックなフィルター・音量制御
