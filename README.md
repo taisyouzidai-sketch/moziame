@@ -4,7 +4,7 @@
 
 大学の制作・展示にてUnityで制作・発表したインスタレーション作品を、ブラウザだけでいつでも手軽に体験できるようJavaScriptで自主移植したデジタルアート作品です。
 
-## 🔗 デプロイURL (Google Chrome専用)
+## デプロイURL (Google Chrome専用)
 * **音声反応エフェクト版:** https://taisyouzidai-sketch.github.io/moziame/
 * **リアルタイム文字表示版:** https://taisyouzidai-sketch.github.io/moziame2/
 
@@ -13,7 +13,7 @@
 * **Web Speech API (`SpeechRecognition`):** ユーザーの音声入力・リアルタイムテキスト化
 * **Web Audio API (`AudioContext` / `BiquadFilterNode`):** 完全にコード上で生成する環境雨音のシンセサイズ、および音声連動によるダイナミックなフィルター・音量制御
 
-## ✨ 技術的な工夫とブラウザ仕様（バグ）との戦い
+##  技術的な工夫とブラウザ仕様（バグ）との戦い
 
 ### 1. 各ブラウザの音声認識仕様へのフォールバック対応
 Google Chromeの標準的な実装に加え、Mac/iOSのSafari（WebKit環境）でも動作するようベンダープレフィックス（`webkitSpeechRecognition`）への対応や、Safari固有のデータ構造の違い（`res.item(0)` が使えない仕様）を通常の配列アクセスへ吸収する安全なロジックを実装しました。
