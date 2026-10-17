@@ -5,8 +5,8 @@
 大学の制作・展示にてUnityで制作・発表したインスタレーション作品を、ブラウザだけでいつでも手軽に体験できるようJavaScriptで自主移植したデジタルアート作品です。
 
 ## 🔗 デプロイURL (Google Chrome専用)
-* **音声反応エフェクト版:** https://github.io
-* **リアルタイム文字表示版:** https://github.io
+* **音声反応エフェクト版:** https://taisyouzidai-sketch.github.io/moziame/
+* **リアルタイム文字表示版:** https://taisyouzidai-sketch.github.io/moziame2/
 
 ## 🛠️ 使用技術・Web API
 * **Frontend:** HTML5, CSS3, JavaScript (Vanilla JS)
